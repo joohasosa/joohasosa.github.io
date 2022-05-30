@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Tortugas</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+<!--Estilos-->
+<style>
+.jumbotron {
+background-color: #A2BF9D;
+color: #ffffff;
+padding: 100px 25px;
+font-family: sans-serif;
+text-align: center
+}
+.container-fluid {
+padding: 40px 50px;
+}
+.bg-grey {
+background-color: #E1FDC8;
+}
+.panel {
+border: 1px solid ;
+}
+.panel:hover {
+box-shadow: 3px 7px 30px #008000;
+}
+.equipo .panel-heading {
+    color: #fff;
+    background-color: #F7780F;
+    padding: 25px;
+    border-bottom: 1px solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.panel-footer {
+    background-color: #D4E8C3;
+}
+.panel-footer h4 {
+    color: #DBEFCA;
+    font-size: 15px;
+}
+@media screen and (min-width: 320px) {
+img {
+max-width: 100%;
+}
+}
+@media screen and (min-width:768px) {
+img {
+max-width:150px;
+}
+}
+@media screen and (min-width:980px) {
+img {
+max-width:225px;
+}
+}
+@media screen and (min-width:1200px) {
+img {
+max-width:300px;
+}
+}
+.icono {
+color: #ff8c00;
+font-size: 20px;
+}
+.menu {
+    background-color: #483d8b;
+    padding: 5px 0px 14px;
+    border: 0;
+    font-size: 12px;
+    line-height: 1.42;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+.menu .navbar-nav li a, .menu .navbar-brand {
+    color: #fff;
+}
+.menu .navbar-nav li a:hover, .menu .navbar-nav li.active a {
+    color: #f4511e;
+    background-color: #fff;
+}
+.menu .navbar-default .menu .navbar-toggle {
+    border-color: transparent;
+    color: #fff;
+}
+footer .glyphicon {
+font-size: 30px;
+margin-bottom: 10px;
+color: #DAA520;
+}
+
+</style>
+
+</head>
+<body id="top" data-spy="scroll" data-target=".navbar" data-offset="60">
+	<header>
+	<nav class="navbar navbar-default navbar-fixed-top menu">
+	  <div class="container">
+	  <div class="navbar-header">
+	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	  <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+	  <a class="navbar-brand" href="#inicio">
+	  <img src="imágenes/loguito.jpeg" height="56" align="center" > 
+	  </a>
+	  </div>
+      <div class="collapse navbar-collapse" id="myNavbar"
+      <ul class="nav navbar-nav navbar-right">
+      <li><a href="#acerca">ACERCA DE</a></li>
+      <li><a href="#productos">PRODUCTOS</a></li>
+      <li><a href="#tiendas">TIEDAS</a></li>
+      <li><a href="#equipo">EQUIPOS</a></li>
+      <li><a href="#contacto">CONTACTO</a></li>
+	  </ul>
+      </div>
+      </nav>
+	  <div class="jumbotron">
+	  <h1> Turtle mania: cuidos para tortugas </h1>
+      <p> Johanna Clarisa Sosa Mejía #36 1°B </p>
+      <form-inline>
+      <input type="email" size="45" placeholder="Dirección de correo">
+      <button class="btn btn-info btn-lg" type="button">Suscribirse</button>
+      </form-inline>
+      </div>
+      </header>
+	  
+	  </button>
+		
+<!--Sección Acerca de-->
+    <section id="acerca" class="container-fluid">
+		<div class="row">
+		     <div class="col-sm-8">
+				<h2>Sobre nuestro proyecto</h2>
+				<h4>Brindamos información para darles una vida plena y feliz a las tortugas.</h4>
+				<p>Podrás encontrar lo que necesites para evitar (o corregir) errores.</p>
+				<a href="about.html" class="btn btn-primary btn-lg">Más información</a>
+				
+			</div>
+			<div class="col-sm-4">
+				<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bA2Vq7Bcwkk" frameborder="0" allowfullscreen></iframe>
+</div>
+
+ 
+			</div>
+		</div>
+	</section>
+	<!--Sección Nuestros valores-->
+	<section class="container-fluid bg-grey">
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="Imágenes/turtle1.jpg" height="200" width="200" Alt="Turtle1">	
+			</div>
+			<div class="col-sm-8">
+				<h3>Nuestro valores</h3>
+				<h5><strong>MISIÓN:</strong> Que toda la información brindada ayude a informarse para poder así cuidar y darles a las tortugas la vida que merecen.</h5>
+				<h5><strong>VISIÓN:</strong> Que los visitantes del sitio confíen, y que sea de su agrado.</h5>
+				<h5><strong>VALORES:</strong> Compromiso, curiosidad, disciplina.</h5>
+			</div>
+		</div>
+	</section>
+	<!-- Sección productos -->
+	<section class="container-fluid text-center">
+		<h3>LO QUE OFRECEMOS</h3>
+		<br>
+		<div class="row">
+		<!-- Image 1 -->
+		<div class="col-sm-4">
+			<img src="Imágenes/tortuga0.jpg" width="200" height="175" Alt="tortuga0">
+			<h6>Alimentos recomendados</h6>
+			<p>Ejemplos de dietas que deben llevar en su vida cotidiana.</p>
+		</div>
+		
+		<div class="col-sm-4">
+			<img src="Imágenes/terrario.jpg" width="200" height="175" Alt="tortuga0">
+			<h6>Hábitats adecuados</h6>
+			<p>Te mostramos los lugares óptimos para tener a tus tortugas.</p>
+		</div>
+		
+		<div class="col-sm-4">
+			<img src="Imágenes/errores.jpg" width="215" height="170" Alt="tortuga0">
+			<h6>Errores comunes</h6>
+			<p>Es bueno saber en que nos equivocamos para poder así mejorarlo.</p>
+		</div>
+		<!-- Segunda fila de imágenes-->
+		<div class="row">
+			<!-- Imagen 4 -->
+			<div class="col-sm-6">
+				<img src="Imágenes/tortuguita.png" width="250" height="165" Alt="tortuga0">
+			<h6>Enfermedades</h6>
+			<p>Ser precavidos y estar pendientes es fundamental.</p>
+			</div> 
+			
+		<div class="col-sm-6">
+				<img src="Imágenes/idea.jpg" width="220" height="165" Alt="tortuga0">
+			<h6>Sugerencias</h6>
+			<p>Con el fin de ayudarte a saber más sobre como llevar su día a día.</p>
+			</div> 
+	</section>
+	<!-- Sección Divisiones -->
+	<section class="container-fluid text-center bg-grey">
+		<h3>Divisiones</h3><br>
+		<h6>Nuestro sitio tiene diversas categorías, esto depende de lo que se quiera saber.</h6>
+		<div class="row text-center">
+			<!-- Columna 1 -->
+			<div class="col-sm-4">
+				<img src="Imágenes/info.jpg" width="220" height="150" alt="Primera categoría">
+				<p><strong>Primera categoría</Strong></p>
+				<p>Información básica sobre las tortugas.</p>
+			</div>
+			
+			<!-- Columna 2 -->
+			<div class="col-sm-4">
+				<img src="Imágenes/cuidos.jpg" width="220" height="150" alt="Primera categoría">
+				<p><strong>Segunda categoría</Strong></p>
+				<p>Alimentación, cuidos, enfermedades, etc.</p>
+			</div>
+			
+			<!-- Columna 3 -->
+			<div class="col-sm-4">
+				<img src="Imágenes/sug.jpg" width="210" height="150" alt="Primera categoría">
+				<p><strong>Tercera categoría</Strong></p>
+				<p>Sugerencias.</p>
+			</div>
+		</div>
+	<!-- Sección Equipo de Trabajo-->
+	<section class="container-fluid">
+		<div class="text-center">
+			<h2>Equipo de Trabajo</h2>
+			<h5>Asistencia inmediata y personalizada</h5>
+		</div>
+		<div class="row">
+			<!--Columna 1-->
+			<div class="col-sm-3">
+				<div class="panel panel-default text-center equipo">
+					<div class="panel-heading">
+						<img src="Imágenes/sofij.jpg" height="210">
+					</div>
+					<div class="panel-body">
+						<p>Asignación de verificar que esté todo en un orden congruente.</p>
+					</div>
+					<div class="panel-footer">
+						<h5>Sofía Chalamet</h5>
+						<h6>Gerente general</h6>
+					</div>
+				</div>
+			</div>
+			<!--Columna 2-->
+			<div class="col-sm-3">
+				<div class="panel panel-default text-center equipo">
+					<div class="panel-heading">
+						<img src="Imágenes/sofir.jpg" height="210">
+					</div>
+					<div class="panel-body">
+						<p>Asignación de diseñar y mejorar el sitio.</p>
+					</div>
+					<div class="panel-footer">
+						<h5>Sofía de Uzumaki</h5>
+						<h6>Diseñadora gráfica</h6>
+					</div>
+				</div>
+			</div>
+			<!--Columna 3-->
+			<div class="col-sm-3">
+				<div class="panel panel-default text-center equipo">
+					<div class="panel-heading">
+						<img src="Imágenes/alelu.jpg" height="210">
+					</div>
+					<div class="panel-body">
+						<p>Asignación de corregir ortografía y agregar fuentes legibles. </p>
+					</div>
+					<div class="panel-footer">
+						<h5>Alexandra de Uzui</h5>
+						<h6>Gerente de área</h6>
+					</div>
+				</div>
+			</div>
+			<!--Columna 3-->
+			<div class="col-sm-3">
+				<div class="panel panel-default text-center equipo">
+					<div class="panel-heading">
+						<img src="Imágenes/rodri.jpg" height="210">
+					</div>
+					<div class="panel-body">
+						<p>Asignación de analizar cada espacio hecho y corregir si es necesario. </p>
+					</div>
+					<div class="panel-footer">
+						<h5>Julio Boccelli</h5>
+						<h6>Sub diseñador gráfico</h6>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<!-- Sección Contacto -->
+<section id="contacto" class="container-fluid bg-grey">
+<h2 class="text-center">CONTACTO</h2>
+<div class="row">
+<div class="col-sm-5">
+<h4>Información de contacto:</h4>
+<p><span class="glyphicon glyphicon-envelope icono"></span>
+Col. Buenos Aires, Calle Lara No.4</p>
+<p><span class="glyphicon glyphicon-plus icono"></span>
+0000-0000</p>
+<p><span class="glyphicon glyphicon-cloud icono"></span>
+mundodeportivo@gmail.com</p>
+</div>
+<div class="col-sm-7">
+<form>
+<div class="row">
+<div class="col-sm-6 form-group">
+<input class="form-control" name="name" placeholder="Nombre" type="text" required>
+</div>
+<div class="col-sm-6 form-group">
+<input class="form-control" name="email" placeholder="E-mail" type="email" required>
+</div>
+</div>
+<textarea class="form-control" name="pregunta" placeholder="Pregunta" rowa="4"></textarea><br>
+<div class="row">
+<div class="col-sm-12 form-group">
+<button class="btn btn-default pull-right" type="submit">Enviar</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</section>
+<!-- Sección Mapas -->
+<section class="container-fluid">
+<h3>Nuestra ubicación</h3>
+<div class="row">
+<div class="col-sm-12">
+<!-- Asignar alto y ancho con CSS -->
+<div id="googleMap" style="height:300px;width:90%;"></div>
+<!-- Agregar Google Maps -->
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+var myCenter = new google.maps.LatLng(13.662599, -89.250332);
+function initialize() {
+var mapProp = {
+center:myCenter,
+zoom:15,
+scrollwheel:true,
+draggable:true,
+mapTypeId:google.maps.MapTypeId.ROADMAP
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var marker = new google.maps.Marker({
+position:myCenter,
+});
+marker.setMap(map);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</div>
+</div>
+</section>
+<!--Pie de página-->
+<footer class="container-fluid text-center">
+<a href="#inicio" title="Ir al inicio">
+<span class="glyphicon glyphicon-home"></span>
+</a>
+<p>Página creada por: <a href="#inicio" title="Visite nuestro sitio">www.turtlemania.com</a></p>
+</footer>
+<!--Script para añadir desplazamiento suave-->
+<script>
+$(document).ready(function(){
+ // Agrega desplazamiento suave a anclas en barra de navegación y pie.
+ $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+// Removiendo comportamiento por defecto.
+event.preventDefault();
+// Almacenando el contenedor destino.
+var hash = this.hash;
+// Agregando desplazamiento suave.
+// El 900 son los milisegundos para moverse.
+$('html, body').animate({
+ // Moviendo sitio a contenedor destino.
+ scrollTop: $(hash).offset().top
+}, 900, function(){
+ // Añade el ancla a la dirección.
+ window.location.hash = hash;
+});
+          });
+})
+</script>
+</body>
+</html
+</body>
+</html>
+
+		
